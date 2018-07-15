@@ -11,9 +11,9 @@ html, body {
 	bottom          : 0;
 	left            : 0;
 	cursor          : url(pointer.cur), default;
-	background-color: rgb(194,65,134);
+	background-color: rgb(40,68,113);
 	-webkit-text-size-adjust: none;
-	scrollbar-base-color    : #d67fae; }
+	scrollbar-base-color    : rgb(40,68,113); }
 
 body, input {
 	font-family     : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
@@ -39,7 +39,7 @@ div.fullmask.loading {
 
 div.fullmask.panic {
 	background-image   : none;
-	background-color   : rgba(255,0,0,0.5); }
+	background-color   : rgba(0,0,255,0.5); }
 
 div.fullscreen {
 	z-index            : 10;
@@ -119,7 +119,7 @@ div.fullscreen {
 .bg-warning{ background-color: rgba(191,0,41,0.6) !important; }
 
 .bg-chinachu {
-	background-color: rgb(194,65,134); }
+	background-color: rgb(40,68,113); }
 
 .bg-dark {
 	background-color: #2b2b2b; }
@@ -160,7 +160,7 @@ div.content-loading {
 
 		div.content-loading > div > div {
 			height          : 8px;
-			background-color: #c24186; }
+			background-color: #rgb(40,68,113); }
 
 /**
  *  main styles ----------------------------------------------------------------------------------------------------
@@ -194,7 +194,7 @@ nav.header {
 	height    : 40px;
 	min-height: 40px;
 	color     : #fff;
-	background: rgb(194,65,134);
+	background: rgb(40,68,113);
 	border    : 0;
 	padding   : 0 5 0 5px;
 	overflow  : visible; }
@@ -229,10 +229,10 @@ nav.header {
 		display: none; }
 
 	nav.header > div#navbar {
-		background: rgb(194,65,134); }
+		background: rgb(40,68,113); }
 
 		div#navbar > ul.nav > li.selected {
-			background: rgb(179,0,95); }
+			background: rgb(32, 54, 90); }
 
 			div#navbar > ul.nav > li > a {
 				padding: 11px 10px 9px 10px;
@@ -353,13 +353,13 @@ div.middle {
 			right     : 0;
 			left      : 0;
 			height    : 40px;
-			background: rgb(194,65,134);
+			background: rgb(40,68,113);
 			color     : #fff;
 			overflow  : hidden; }
 
 		div.middle > div.main.nohead > div.main-head {
 			height    : 0;
-			color     : rgb(194,65,134); }
+			color     : rgb(40,68,113); }
 
 		div.middle > div.main > div.main-head.overline {
 			z-index      : 100;
@@ -398,7 +398,7 @@ div.middle {
 					div.middle > div.main > div.main-head > div.main-head-title > h1 > span.episode {
 						font-size     : 12px;
 						background    : rgba(255,255,255,0.8);
-						color         : rgb(194,65,134);
+						color         : rgb(40,68,113);
 						vertical-align: top;
 						padding       : 0 2px; }
 
@@ -414,10 +414,10 @@ div.middle {
 				right     : 0;
 				bottom    : 0;
 				padding   : 0 10px;
-				background: rgb(194,65,134);
-				box-shadow: -2px 0 0 rgba(194,65,134,0.7),
-				            -4px 0 0 rgba(194,65,134,0.7),
-				            -6px 0 0 rgba(194,65,134,0.7); }
+				background: rgb(40,68,113);
+				box-shadow: -2px 0 0 rgba(40,68,113,0.7),
+				            -4px 0 0 rgba(40,68,113,0.7),
+				            -6px 0 0 rgba(40,68,113,0.7); }
 
 				div.middle > div.main > div.main-head > div.main-head-toolbar > div.navbar {
 					min-height: 40px;
@@ -454,8 +454,8 @@ div.middle {
 
 					div.middle > div.main > div.main-head > div.main-head-toolbar > div.navbar > a.sakura-button.selected {
 						color: #fff;
-						background: rgba(179,0,95,0.25);
-						box-shadow: 0 3px 0 rgb(179,0,95); }
+						background: rgba(32, 54, 90,0.25);
+						box-shadow: 0 3px 0 rgb(32, 54, 90); }
 
 						div.middle > div.main > div.main-head > div.main-head-toolbar > div.navbar > a.sakura-button > span {
 							color         : #aaa;
@@ -618,7 +618,7 @@ div.footer {
 		line-height     : 15px;
 		height          : 15px;
 		padding         : 5px 10px;
-		background-color: rgba(194,65,134,0.4);
+		background-color: rgba(40,68,113,0.4);
 		box-shadow      : none;
 		box-sizing      : initial;
 		text-shadow     : none }
@@ -628,18 +628,18 @@ div.footer {
 
 	div.footer > a.sakura-button:hover {
 		color           : white;
-		background-color: rgba(194,65,134,1); }
+		background-color: rgba(40,68,113,1); }
 
 	div.footer > a.sakura-button.sakura-button-selected {
 		color           : white;
-		background-color: rgba(194,65,134,1); }
+		background-color: rgba(40,68,113,1); }
 
 /* hyperform */
 
 .hyperform button.selected {
 	border-color    : #000 !important;
 	border-color    : rgba(0, 0, 0, 0.5) !important;
-	background-color: #c24186 !important; }
+	background-color: #rgb(40,68,113) !important; }
 
 	.hyperform button.selected > label {
 		color: #fff; }
@@ -656,41 +656,41 @@ div.footer {
 	border-color    : #000 !important; }
 
 .hyperform div.slider > .slider-display {
-	color           : #c24186 !important; }
+	color           : #rgb(40,68,113) !important; }
 
 	.hyperform div.slider > .slider-base > .slider-fill {
 		background-image: none !important;
-		background-color: #c24186 !important; }
+		background-color: #rgb(40,68,113) !important; }
 
 		.hyperform div.slider > .slider-base > .slider-fill > .slider-handle {
 			border-color    : #000 !important;
 			background-image: none !important;
-			background-color: #d67fae !important; }
+			background-color: rgb(40,68,113) !important; }
 
 /* flagrate */
 
 label.flagrate-checkbox > div,
 label.flagrate-radio > div {
-	border-color    : rgba(179,0,95,0.9); }
+	border-color    : rgba(32, 54, 90,0.9); }
 
 label.flagrate-checkbox > input:checked+div,
 label.flagrate-radio > input:checked+div {
-	background-color: rgb(179,0,95);
-	border-color    : rgb(179,0,95); }
+	background-color: rgb(32, 54, 90);
+	border-color    : rgb(32, 54, 90); }
 
 div.flagrate-grid > div > table > tbody > tr.flagrate-grid-row-selected,
 div.flagrate-select > div.flagrate-grid > div > table > tbody > tr.flagrate-grid-row-selecte {
-	background-color: rgba(179,0,95,0.25); }
+	background-color: rgba(32, 54, 90,0.25); }
 
 div.flagrate-grid > div > table > tbody > tr:nth-child(odd).flagrate-grid-row-selected {
-	background-color: rgba(179,0,95,0.30); }
+	background-color: rgba(32, 54, 90,0.30); }
 
 div.flagrate-grid > div > table > tbody > tr.flagrate-grid-row-selected:hover,
 div.flagrate-select > div.flagrate-grid > div > table > tbody > tr.flagrate-grid-row-selected:hover {
-	background-color: rgba(179,0,95,0.35); }
+	background-color: rgba(32, 54, 90,0.35); }
 
 div.flagrate-grid > div > table > tbody > tr:nth-child(odd).flagrate-grid-row-selected:hover {
-	background-color: rgba(179,0,95,0.40); }
+	background-color: rgba(32, 54, 90,0.40); }
 
 div.flagrate-grid td.types,
 div.flagrate-grid td.categories {
@@ -700,7 +700,7 @@ div.flagrate-toolbar > div.flagrate-progress {
 	margin: 0 0 0 5px; }
 
 div.flagrate-progress > div {
-	background-color: rgb(194,65,134); }
+	background-color: rgb(40,68,113); }
 
 button.flagrate-button > span > span.glyphicon {
 	margin-right: 4px;
@@ -886,7 +886,7 @@ div.timetable > div.board {
 		box-shadow  : inset 0 1px 0 rgba(25,25,25,0.3); }
 
 	div.timetable > div.board > div.rect:hover {
-		box-shadow  : inset 0 0 0 2px rgba(194,65,134,0.4); }
+		box-shadow  : inset 0 0 0 2px rgba(40,68,113,0.4); }
 
 	div.timetable > div.board > div.rect.reserved,
 	div.timetable > div.board > div.rect.recording {
